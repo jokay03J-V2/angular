@@ -1,0 +1,4 @@
+<h1>Accueil</h1>
+<h2>c'est au tour de {{player}}</h2>
+<h2 *ngIf="winner">{{winner}}</h2>
+<app-square *ngFor="let item of array" [value]="item"></app-square>
